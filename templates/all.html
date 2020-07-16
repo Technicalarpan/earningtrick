@@ -9,17 +9,15 @@
 <body>
 
     <section class="section container content">
-        <h1>{{ q }}</h1>
-        
+        <h1 class="my-4">{{ q }}</h1>
         <hr>
         
-        <div class="row py-md-5 py-4 my-md-5 my-4"> 
-              
+        <div class="row py-4"> 
                
                {% for i in range(r) %}
                
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="card h-100 my-3" >
+                <div class="col-lg-4 col-md-6 col-12 py-3">
+                    <div class="card h-100" >
                         <div class="card-body">
                           <h5 class="card-title">{{ tls[i] }}</h5>
                           <p class="card-text">{{ cts[i] }}</p>
@@ -31,6 +29,9 @@
 
                </div>
         </section>
+		
+		
+		
     
 </body>
 </html>
