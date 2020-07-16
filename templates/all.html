@@ -13,19 +13,19 @@
         
         <hr>
         
-        <div class="row"> 
+        <div class="row py-md-5 py-4 my-md-5 my-4"> 
               
                
                {% for i in range(r) %}
                
                 <div class="col-lg-4 col-md-6 col-12">
-                    <div class="card" >
+                    <div class="card h-100 my-3" >
                         <div class="card-body">
                           <h5 class="card-title">{{ tls[i] }}</h5>
                           <p class="card-text">{{ cts[i] }}</p>
                           <a href="/s/{{ tls[i] }}" class="card-link">Read More</a>
                         </div>
-                      </div>
+                    </div>
                 </div>
                {% endfor %}
 
